@@ -1,0 +1,57 @@
+*{
+	font-family: "苹方" !important;
+}
+	
+body,ul,p,h4,h3{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.parent:after{
+	content: " ";
+	height: 0;
+	display: block;
+	clear: both;
+}
+img{
+	border: none;
+}
+/*@media only screen and (min-width: 481px) {
+html {
+   font-size:94%!important
+}
+}*/
+
+/*@media only screen and (min-width: 561px) {
+html {
+font-size:110%!important
+}
+}
+
+@media only screen and (min-width:768px) {
+html {
+font-size:240%!important
+}
+@media only screen and (min-width: 1024px) {
+html {
+font-size:320%!important
+}*/
+body {
+/*max-width: 640px*/
+}
+
+/*公共样式*/

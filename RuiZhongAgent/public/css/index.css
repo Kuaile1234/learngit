@@ -1,0 +1,132 @@
+body,html{
+	width: 100%;
+	height: 100%;
+}
+.index{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	background: url("/image/back.jpg") no-repeat;
+	background-size: 105% 100%;
+	position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: -5px;
+}
+.index>img{
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	width:78%;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.logo>img{
+	width: 180px;
+	height: 40px;
+	z-index: 999;
+}
+.font{
+	width: 78%;
+	margin: 0 auto;
+	margin-top:80px;
+	
+}
+.font>.font_main{
+	margin-left: -50px;
+	transition: all 1s;
+}
+.font>.font_main>.title{
+	font-size: 50px;
+	color: #fff;
+}
+.font .pList{
+	margin-top: 30px;
+}
+.font p{
+	font-size: 15px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.font .button{
+	width: 220px;
+	height: 55px;
+	text-align: center;
+	line-height: 55px;
+	background-color: rgb(42, 204, 114);
+	color: #fff;
+	border-radius: 5px;
+	margin-top: 50px;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.font .button:hover{
+	background-color: rgb(39,187,105);
+}
+.index>.right{
+	width: 50%;
+	position: absolute;
+	right: 200px;
+	top:   90px;
+}
+.index>.right>img{
+	width: 850px;
+	height:530px;
+}
+.foot{
+	width: 100%;
+	height: 110px;
+	background-color: #0a6bd2;
+}
+.foot .foot_main{
+	width: 80%;
+	margin: 0 auto;
+}
+.foot .foot_main .left p{
+	font-size: 13px;
+	color: #fff;
+}
+.foot .foot_main .left p:nth-child(1){
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.foot .foot_main .right ul{
+	margin-top: 30px;
+}
+.foot .foot_main .right ul li{
+	float: left;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    background-position: 0 0;
+    display: inline-block;
+    margin-right: 20px;
+}
+.foot .foot_main .right ul li:nth-child(1){
+	background-image: url("/image/social_icon.png");
+    background-repeat: no-repeat;
+	background-position:0px -145px;
+	margin-left: 20px;
+}
+
+.foot .foot_main .right ul li:nth-child(2){
+	background-image: url("/image/social_icon.png");
+    background-repeat: no-repeat;
+	background-position: -24px -145px;
+}
+.foot .foot_main .right ul li:nth-child(3){
+	background-image: url("/image/social_icon.png");
+    background-repeat: no-repeat;
+	background-position: -47px -145px;
+}
+.foot .foot_main .right ul li:nth-child(4){
+	background-image: url("/image/social_icon.png");
+    background-repeat: no-repeat;
+	background-position: -96px -145px;
+}
+.foot .foot_main p{
+	font-size: 13px;
+	color: #fff;
+	margin-top: 10px;
+}
